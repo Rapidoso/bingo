@@ -1,0 +1,67 @@
+
+body{
+    background-color: #0f1546;
+    color: White;
+    font-family: "Roboto", "Anton", sans-serif;
+}
+
+.hero{
+    text-align: center;
+}
+
+.hero h1{
+    font-family: "Roboto light";
+    font-weight: normal;
+    font-size: 3rem;
+    margin-bottom: 0%;
+}
+
+.hero h2{
+    margin-top: 0%;
+    font-family: "Anton";
+    font-weight: normal;
+    font-size: 10rem;
+    margin-bottom: 0%
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones button{
+    margin-top: 0%;
+    font-family: "Roboto Regular";
+    font-size: 2rem;
+    border-radius: 1rem;
+    border-width: 0.15rem;
+    border-style: solid;
+    width: 20rem;
+    height: 4rem;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.botones p{
+    margin-top: 0;
+    margin-right: 3rem;
+    font-family: "Roboto Thin";
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+
+.pasados{
+    text-align: left;
+    margin-top: 5rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+}
+
+.pasados p{
+    font-family: "Roboto Thin";
+    font-size: 2rem;
+    line-height: 3rem;
+}
