@@ -67,8 +67,8 @@ function bola(){
 
   if (contador >= 100){
     pasados.innerHTML += "<b>.</b>";
-    resultado.innerHTML = "F I N   😎👊🏿";
     botones.removeChild(document.getElementById("siguiente"))
+    cuenta.innerHTML = "100 / Se acabaron los números 😎👊🏿";
   }
 
 }
