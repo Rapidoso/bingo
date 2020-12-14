@@ -1,23 +1,71 @@
 body{
     background-color: #0f1546;
-    background-image: url("https://raw.githubusercontent.com/Rapidoso/bingo/master/visual_elements/fondo_index.gif");
+    background-image: url("visual_elements/fondo_reglas.png");
     background-size: 100%;
     color: White;
     font-family: "Roboto", "Anton", sans-serif;
 }
 
 button:focus { 
-outline:none; 
-} 
+    outline:none; 
+}
+
+.hero{
+    margin-left: 13rem;
+    float: left;
+    width: 35rem;
+}
+
+.hero h1{
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-family: Anton;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.hero h2{
+    margin-top: 0rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Roboto Light"
+}
+
+.hero div{
+    border-color: white;
+    border-width: 0.15rem;
+    border-radius: 1rem;
+    border-style: solid;
+    float: center;
+    padding: 3rem;
+    padding-top: 1.5rem;
+    padding-top: 1.5rem;
+    
+}
+
+.hero div p{
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: "Roboto Thin";
+    width: 30rem;
+    margin-bottom: 0;
+}
+
+.hero p b{
+    color: #00FF00;
+}
 
 .botones{
+margin-top: 25rem;
 display: flex;
-justify-content: center;
-align-items: center;
+float: left;
 }
 
 .botones button{
-margin-top: 23rem;
+margin-top: 0;
+margin-left: 8rem;
 font-family: "Roboto Regular";
 font-size: 2rem;
 border-radius: 1rem;
@@ -35,6 +83,6 @@ transition: border-color 0.6s linear;
 .botones button:hover{
 border-top-color: white;
 border-left-color: white;
-border-right-color: #00CEC6;
-border-bottom-color: #00CEC6;
+border-right-color: #00FF00;
+border-bottom-color: #00FF00;
 }
