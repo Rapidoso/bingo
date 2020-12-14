@@ -1,0 +1,40 @@
+body{
+        background-color: #0f1546;
+        background-image: url("visual_elements/gif_fondo.gif");
+        background-size: 100%;
+        color: White;
+        font-family: "Roboto", "Anton", sans-serif;
+}
+
+button:focus { 
+    outline:none; 
+} 
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones button{
+    margin-top: 30rem;
+    font-family: "Roboto Regular";
+    font-size: 2rem;
+    border-radius: 1rem;
+    border-width: 0.15rem;
+    border-style: solid;
+    width: 20rem;
+    height: 4rem;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: border-color 0.6s linear;
+}
+
+.botones button:hover{
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: #00CEC6;
+    border-bottom-color: #00CEC6;
+}

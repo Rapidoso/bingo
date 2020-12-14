@@ -3,5 +3,6 @@
 visual_elements/*
 !visual_elements/fondo.png
 !visual_elements/icon.svg
+!visual_elements/gif_fondo.gif
 
 
